@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Filmes Barbie | OnlyThread</title>
 	<link rel="stylesheet" href="src/css/styles.css" />
+	<link rel="stylesheet" href="src/css/responsive-design.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </head>
 <body>
@@ -29,16 +29,68 @@
 			<img id="waves-header" src="assets/wave.svg" alt="waves" />
 		</header>
 		<section>
-			<h2>Filmes</h2>
-			<ul>
-				<li>Filmes 1</li>
-				<li>Filmes 2</li>
-				<li>Filmes 3</li>
-				<li>Filmes 4</li>
-				<li>Filmes 5</li>
-				<li>Filmes 6</li>
+			<div class="films-filter">
+				<h2>Filmes</h2>
+				<div class="filter">
+					<select>
+						<option value="category">Aleatório</option>
+						<option value="action">Ação</option>
+						<option value="adventure">Aventura</option>
+						<option value="draw">Desenho</option>
+						<option value="horror">Terror</option>
+					</select>
+					<button id="filtering"><i class="fas fa-chevron-right" style="color:white"></i></button>
+				</div>	
+			</div>
+			
+			<ul class="list-films">
+				<li>
+					<p><span>Nome:</span>Shrek 2</p>
+					<p><span>Categoria:</span>Animação</p>
+					<button onclick="testViewFilm()">Assistir</button>
+				</li>
+
+				<li>
+					<p><span>Nome:</span>Shrek 2</p>
+					<p><span>Categoria:</span>Animação</p>
+					<button onclick="testViewFilm()">Assistir</button>
+				</li>
+
+				<li>
+					<p><span>Nome:</span>Shrek 2</p>
+					<p><span>Categoria:</span>Animação</p>
+					<button onclick="testViewFilm()">Assistir</button>
+				</li>
+
+				<li>
+					<p><span>Nome:</span>Shrek 2</p>
+					<p><span>Categoria:</span>Animação</p>
+					<button onclick="testViewFilm()">Assistir</button>
+				</li>
+				<li>
+					<p><span>Nome:</span>Shrek 2</p>
+					<p><span>Categoria:</span>Animação</p>
+					<button onclick="testViewFilm()">Assistir</button>
+				</li>
+
+				<li>
+					<p><span>Nome:</span>Shrek 2</p>
+					<p><span>Categoria:</span>Animação</p>
+					<button onclick="testViewFilm()">Assistir</button>
+				</li>
+
+				<li>
+					<p><span>Nome:</span>Shrek 2</p>
+					<p><span>Categoria:</span>Animação</p>
+					<button onclick="testViewFilm()">Assistir</button>
+				</li>
+
+				<li>
+					<p><span>Nome:</span>Shrek 2</p>
+					<p><span>Categoria:</span>Animação</p>
+					<button>Assistir</button>
+				</li>
 			</ul>
-			<a href="all-films.html"><button>Ver todos</button></a>
 			<img class="circles-right" src="./assets/circles-right.svg" alt="circles-right" />
 			<img class="circles-left" src="./assets/circles-left.svg" alt="circles-left" />
 		</section>
@@ -46,7 +98,10 @@
 			<img class="top-waves-article" src="./assets/top-waves-article.svg" alt="top-waves-article" />
 			<h2>Rede Social</h2>
 			<div class="group-social">
-				<span><i id="instagram" class="fab fa-instagram" style="width:95px;height:95px"></i> <a href="">_onlythread</a></span>
+				<span>
+					<i id="instagram" class="fab fa-instagram" style="width:95px;height:95px"></i>
+					<a href="">_onlythread</a>
+				</span>
 				<div class="social-info">
 					<h1>Siga-me :)</h1>
 					<p>Seguindo, você saberá se têm mais filmes chegando.</p>
