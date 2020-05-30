@@ -123,7 +123,26 @@
 		margin:0 5px;
 	}
 
+	
 	section .films-filter {
 		flex-direction:column;
+	}
+
+	article .group-social {
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+
+
+	article h2 {
+		font-size:25px;
+	}
+
+	article .group-social .social-info h1 {
+		font-size:30px;
+	}
+
+	article .group-social .social-info p {
+		font-size:26px;
 	}
 }
