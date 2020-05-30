@@ -9,16 +9,6 @@ $(window).scroll(function() {
 	}
 });
 
-// Scroll down 
-btnFilms = document.getElementById('viewfilms');
-
-btnFilms.addEventListener('click', () => {
-	window.scrollTo({
-		top: 500,
-		left: 0,
-		behavior: 'smooth'
-	})
-});
 
 const btnBurger = document.querySelector('.burger');
 const nav = document.querySelector('#nav-links');
@@ -26,4 +16,15 @@ const nav = document.querySelector('#nav-links');
 btnBurger.addEventListener('click', () => {
 	
 	nav.classList.toggle('active');
+});
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
