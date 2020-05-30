@@ -19,16 +19,51 @@ input, button {
 
 button {
 	cursor:pointer;
+
 }
 
 .container-films {
 	width:100%;
+	overflow:hidden;
+	position:relative;
 }
+
+.container-films #view-film-full-screen {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:10000px;
+	background:rgba(0,0,0,0.7);
+	color:white;
+	display:none;
+	z-index: 99999;
+	text-align:center;
+}
+
+.container-films #view-film-full-screen.open {
+	display:block;
+}
+
+.container-films #view-film-full-screen #close {
+	position:absolute;
+	right:40px;
+	transform:rotate(45deg);
+	font-size:100px;
+	z-index: 10;
+}
+
+.container-films #view-film-full-screen iframe {
+	width:100%;
+	max-width:1000px;
+	height:500px;
+	margin-top:30px;
+}
+
 
 .container-films header {
 	width:100%;
 	background:linear-gradient(45deg, #FF48ED ,#0500FF);
-	padding:0 100px;
 	color:#fff;
 	height:100vh;
 	position:relative;
@@ -38,18 +73,18 @@ button {
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
-	padding:40px 0;	
-	transition:padding 0.5s, fixed 0.2s;
+	padding:20px 100px;	
+	background:white;
+	color:#333;
 }
 
 .container-films header nav.fixed {
 	position:fixed;
-	background:rgba(0,0,0,0.7);
+	box-shadow:4px 4px 25px rgba(0,0,0,0.2);
 	width:100%;
 	top:0;
 	left:0;
 	padding:20px 100px;
-	z-index:10;
 }
 
 .container-films header nav h3 {
@@ -70,11 +105,28 @@ button {
 	font-weight:bold;
 }
 
+.container-films header nav .burger {
+	display:none;
+	cursor:pointer;
+}
+
+.container-films header nav .burger div{
+	width:25px;
+	height:3px;
+	background-color:rgb(10,10,10);
+	margin:5px;
+}
+
+.nav-active {
+	transform:translateX(0%);
+}
+
 
 .container-films header .group-home-info {
 	display:flex;
 	justify-content:space-between;
 	margin-top:20px;
+	padding:0 100px;
 
 }
 
@@ -155,7 +207,7 @@ section .films-filter .filter select {
 	border:3px solid #333;
 	border-radius:25px;
 	margin-right:20px;
-	padding:0 30px;
+	padding:0 10px;
 }
 
 section .films-filter .filter button {
@@ -181,7 +233,7 @@ section ul li {
 	height:200px;
 	display:flex;
 	flex-direction:column;
-	justify-content:space-between;
+	justify-content:space-around;
 
 }
 
