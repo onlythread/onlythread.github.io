@@ -9,14 +9,14 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </head>
 <body>
-	<div class="container-films">
-		<header>
+	<div class="container-films" id="home">
+		<header >
 			<nav>
 				<h3>Filmes online</h3>
 				<ul id="nav-links">
-					<li>Home</li>
-					<li>Filmes</li>
-					<li>Rede social</li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#waves-header">Filmes</a></li>
+					<li><a href="#social-network">Rede Social</a></li>
 				</ul>
 				<div class="burger">
 					<div class="line1"></div>
@@ -28,13 +28,13 @@
 				<div class="home-info">
 					<h1>Filmes variados</h1>
 					<p>Assista em seu notebook ou celular a qualquer hora.</p>
-					<button type="submit" id="viewfilms">Ver filmes</button>
+					<a href="#waves-header"><button type="submit" id="viewfilms">Ver filmes</button></a>	
 				</div>
 				<img src="./assets/computer_display.svg" alt="filmes online" />
 			</div>
 			<img id="waves-header" src="assets/wave.svg" alt="waves" />
 		</header>
-		<section>
+		<section >
 			<div class="films-filter">
 				<h2>Filmes</h2>
 				<div class="filter">
@@ -66,7 +66,7 @@
 			<img class="circles-left" src="./assets/circles-left.svg" alt="circles-left" />
 
 		</section>
-		<article>
+		<article id="social-network">
 			<img class="top-waves-article" src="./assets/top-waves-article.svg" alt="top-waves-article" />
 			<h2>Rede Social</h2>
 			<div class="group-social">
