@@ -35,6 +35,14 @@
 
 @media (max-width: 780px) {
 
+	section .films-filter {
+		flex-direction:column;
+	}
+
+	section .films-filter .filter {
+		margin-bottom:20px;
+	}
+
 	.container-films #view-film-full-screen iframe {
 		margin-top:100px;
 		height:300px;
@@ -115,17 +123,10 @@
 	}
 }
 
-
-
-@media (max-width: 390px) {
+@media (max-width: 400px) {
 	.container-films header nav ul li {
 		font-size:15px;
 		margin:0 5px;
-	}
-
-	
-	section .films-filter {
-		flex-direction:column;
 	}
 
 	article .group-social {
@@ -145,4 +146,28 @@
 	article .group-social .social-info p {
 		font-size:26px;
 	}
+
+	section .circles-right {
+		position:absolute;
+		right:-20px;
+		top:20px;
+		z-index:-1;
+	}
+
+	section .circles-left {
+		position:absolute;
+		left:-20px;
+		top:400px;
+		z-index: -1;
+	}
+
+	section .films-filter .filter select {
+		width:250px;
+	}
+
+	section .films-filter .searchFilms form input {
+		width: 250px;
+	}
+
+
 }
