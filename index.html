@@ -35,9 +35,11 @@
 			<img id="waves-header" src="assets/wave.svg" alt="waves" />
 		</header>
 		<section >
+			<h2>Filmes</h2>
 			<div class="films-filter">
-				<h2>Filmes</h2>
+				
 				<div class="filter">
+					<button id="filtering"><i class="fas fa-filter" style="color:white"></i></button>
 					<select id="category">
 						<option value="random">Aleatório</option>
 						<option value="action">Ação</option>
@@ -49,14 +51,17 @@
 						<option value="teenager">Adolescencia</option>
 						<option value="family">Família</option>
 						<option value="romance">Romance</option>
-						<option value="drama">drama</option>
+						<option value="drama">Drama</option>
 						<option value="musical">Musical</option>
 						<option value="science-fiction">Ficção Científica</option>
 					</select>
-					<button id="filtering">
-						<i class="fas fa-chevron-right" style="color:white"></i>
-					</button>
 				</div>	
+				<div class="searchFilms">
+					<form>
+						<input placeholder="Procure por seu filme preferido :)" required id="search-input" />		
+						<button type="submit"><i class="fas fa-search" style="color:white"></i></button>
+					</form>
+				</div>
 			</div>
 			
 			<ul id="list-films">
@@ -95,5 +100,6 @@
 	<script src="src/js/randomFilms.js" type="text/javascript"></script>
 	<script src="src/js/parseHttpForIframe.js" type="text/javascript"></script>
 	<script src="src/js/loadFilms.js" type="text/javascript"></script>
+	<script src="src/js/search.js" type="text/javascript"></script>
 </body>
 </html>
