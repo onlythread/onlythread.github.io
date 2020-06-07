@@ -11,9 +11,9 @@ submitSearchFilm.onsubmit = function (e) {
 	const filtered = films.filter((filmsFiltereds) => ( PATTERN.test(filmsFiltereds.name_film) ));
 
 	if(filtered.length !== 0 ) {
-		insertInHTMLwithNameAndCategory(filtered);		
+		return insertInHTMLwithNameAndCategory(filtered);		
 	} else {
-		alert('test')
+		return alert('Não existe esse filme ou  você escreveu errado o nome do filme, aperte em (okay) e tente de novo :).');
 	}
 
 }
