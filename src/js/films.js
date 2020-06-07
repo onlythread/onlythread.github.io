@@ -281,195 +281,195 @@ const films = [
 		link_film: '1cf6R1ervxMISEQMWQFM-J5aygc7OScpW'
 	},
 	{ 
-		name_film: '1 e 2 Barbie, a estrela do Rock & Barbie e as Sensações',
+		name_film: 'Barbie, a estrela do Rock & Barbie e as Sensações',
 		category: ['Animação' ],
 		link_film: '1xCX2S2Z5wH3NxAL4oyYhf8TyaBPS8_3h'
 	},
 	{ 
-		name_film: '3 Barbie e o Quebra Nozes',
+		name_film: 'Barbie e o Quebra Nozes',
 		category: ['Animação' ],
 		link_film: '1Kch1fppwKK-xvDMBiZSaRqXI0YgbfkhU'
 	},
 	{ 
-		name_film: '4 Barbie como Rapunzel',
+		name_film: 'Barbie como Rapunzel',
 		category: ['Animação' ],
 		link_film: '1jxW_ILTFqClqW6dr-9h4OtEguWrqhH1z'
 	},
 	{ 
-		name_film: '5 Barbie e o Lago dos Cisnes',
+		name_film: 'Barbie e o Lago dos Cisnes',
 		category: ['Animação' ],
 		link_film: '1JDnwfh65qgUXsPdK0C-da0VZ7J8OISCt'
 	},
 	{ 
-		name_film: '6 Barbie em A Princesa e a Plebeia',
+		name_film: 'Barbie em A Princesa e a Plebeia',
 		category: ['Animação' ],
 		link_film: '1KDNy8zQAuxdhGd9pXefqBLW10oH85Fi2'
 	},
 	{ 
-		name_film: '7 Barbie Fairytopia',
+		name_film: 'Barbie Fairytopia',
 		category: ['Animação' ],
 		link_film: '1ZEX9TqZIiRjDTlVThklzxw8Gs-VtQwAo'
 	},
 	{ 
-		name_film: '8 Barbie em A Magia de Aladus',
+		name_film: 'Barbie em A Magia de Aladus',
 		category: ['Animação' ],
 		link_film: '1QPhTqTqzzUDkQOlf0mYCnkJUhn6RUcQ5'
 	},
 	{ 
-		name_film: '9 O Diario da Barbie',
+		name_film: 'O Diario da Barbie',
 		category: ['Animação' ],
 		link_film: '113a_Zpwc29DIy4oPZst4sjhVgmUy749b'
 	},
 	{ 
-		name_film: '10 Barbie Fairytopia Mermaidia em Uma Viagem Ao Fundo do Mar Numa Aventura Mágica',
+		name_film: 'Barbie Fairytopia Mermaidia em Uma Viagem Ao Fundo do Mar Numa Aventura Mágica',
 		category: ['Animação' ],
 		link_film: '1bFRDGhH7aSAQbd6yAqkFwAGHnGXnezDJ'
 	},
 	{ 
-		name_film: '11 Barbie em as 12 Bailarinas',
+		name_film: 'Barbie em as 12 Bailarinas',
 		category: ['Animação' ],
 		link_film: '1n-0iwsyrbCCQ1h4E74EBEthIGtnVM3oB'
 	},
 	{ 
-		name_film: '12 Barbie Fairytopia em A Magia do Arco-Íris',
+		name_film: 'Barbie Fairytopia em A Magia do Arco-Íris',
 		category: ['Animação' ],
 		link_film: '1lhqwSFIdaH8Xk3N8kHRToy9qqAK909aN'
 	},
 	{ 
-		name_film: '13 Barbie em a Princesa da Ilha',
+		name_film: 'Barbie em a Princesa da Ilha',
 		category: ['Animação' ],
 		link_film: '1b0SFiJai-SJndiIru2bSJN0Fy2Fvp-Dx'
 	},
 	{ 
-		name_film: '14 Barbie Butterfly Uma Nova Aventura em Fairytopia',
+		name_film: 'Barbie Butterfly Uma Nova Aventura em Fairytopia',
 		category: ['Animação' ],
 		link_film: '1yvUtQXwbCLqIuWBDFIxkGDSAAkui15xL'
 	},
 	{ 
-		name_film: '15 Barbie e o Castelo de Diamante',
+		name_film: 'Barbie e o Castelo de Diamante',
 		category: ['Animação' ],
 		link_film: '1nbayodS7b72GY-5Elx44M4zY9pMAczXq'
 	},
 	{ 
-		name_film: '16 Barbie em A Criação de Natal',
+		name_film: 'Barbie em A Criação de Natal',
 		category: ['Animação' ],
 		link_film: '1nbayodS7b72GY-5Elx44M4zY9pMAczXq'
 	},
 	{ 
-		name_film: '17 Barbie em a Pequena Polegarzinha',
+		name_film: 'Barbie em a Pequena Polegarzinha',
 		category: ['Animação' ],
 		link_film: '16R2mx73DGC-N62rqJbp22WA2dbbEmNtJ'
 	},
 	{ 
-		name_film: '18 Barbie em as Três Mosqueteiras',
+		name_film: 'Barbie em as Três Mosqueteiras',
 		category: ['Animação' ],
 		link_film: '16R2mx73DGC-N62rqJbp22WA2dbbEmNtJ'
 	},
 	{ 
-		name_film: '19 Barbie em Vida de Sereia',
+		name_film: 'Barbie em Vida de Sereia',
 		category: ['Animação' ],
 		link_film: '1xkyCZyorn1Tpj6NYQ9dqim3_AFHQb5yl'
 	},
 	{ 
-		name_film: '20 Barbie Moda e Magia',
+		name_film: 'Barbie Moda e Magia',
 		category: ['Animação' ],
 		link_film: '1fX4lpIU87UOIaPTwMAfKVSdfl1UE1G-t'
 	},
 	{ 
-		name_film: '21 Barbie e o Segredo das Fadas',
+		name_film: 'Barbie e o Segredo das Fadas',
 		category: ['Animação' ],
 		link_film: '1Y57SJin7GnQRml9ny5Zj2YAQH5Ct7dre'
 	},
 	{ 
-		name_film: '22 Barbie Escola de Princesas',
+		name_film: 'Barbie Escola de Princesas',
 		category: ['Animação' ],
 		link_film: '1NGaJ5T5sbmLqM7MJVic5LMED7JdGKlBq'
 	},
 	{ 
-		name_film: '23 Barbie - Um Natal Perfeito',
+		name_film: 'Barbie - Um Natal Perfeito',
 		category: ['Animação' ],
 		link_film: '1UKabZAmK4VdwSfTLC0knEdn_zf2g-zJl'
 	},
 	{ 
-		name_film: '24 Barbie em Vida de Sereia 2',
+		name_film: 'Barbie em Vida de Sereia 2',
 		category: ['Animação' ],
 		link_film: '1clNPDVtrXrQVVcJ69pm-ce8Br8Q8C-nH'
 	},	{ 
-		name_film: '25 Barbie a Princesa e a Pop Star',
+		name_film: 'Barbie a Princesa e a Pop Star',
 		category: ['Animação' ],
 		link_film: '1clNPDVtrXrQVVcJ69pm-ce8Br8Q8C-nH'
 	},
 	{ 
-		name_film: '26 Barbie e as Sapatilhas Mágicas',
+		name_film: 'Barbie e as Sapatilhas Mágicas',
 		category: ['Animação' ],
 		link_film: '1clNPDVtrXrQVVcJ69pm-ce8Br8Q8C-nH'
 	},
 	{ 
-		name_film: '27 Barbie Butterfly e a Princesa Fairy',
+		name_film: 'Barbie Butterfly e a Princesa Fairy',
 		category: ['Animação' ],
 		link_film: '1clNPDVtrXrQVVcJ69pm-ce8Br8Q8C-nH'
 	},
 	{ 
-		name_film: '28 Barbie e Suas Irmãs em Uma Aventura a Cavalo',
+		name_film: 'Barbie e Suas Irmãs em Uma Aventura a Cavalo',
 		category: ['Animação' ],
 		link_film: '1clNPDVtrXrQVVcJ69pm-ce8Br8Q8C-nH'
 	},
 	{ 
-		name_film: '29 Barbie Acampamento com as suas Irmãs',
+		name_film: 'Barbie Acampamento com as suas Irmãs',
 		category: ['Animação' ],
 		link_film: '19Naql7qnA3RdJkikKITKCAza4Tl87Krn'
 	},
 	{ 
-		name_film: '30 Barbie a Sereia das Pérolas',
+		name_film: 'Barbie a Sereia das Pérolas',
 		category: ['Animação' ],
 		link_film: '19Naql7qnA3RdJkikKITKCAza4Tl87Krn'
 	},
 	{ 
-		name_film: '31 Barbie e o Portal Secreto ',
+		name_film: 'Barbie e o Portal Secreto ',
 		category: ['Animação' ],
 		link_film: '19Naql7qnA3RdJkikKITKCAza4Tl87Krn'
 	},	{ 
-		name_film: '32 Barbie Super Princesa',
+		name_film: 'Barbie Super Princesa',
 		category: ['Animação' ],
 		link_film: '1_Mo0x_YmV9C7r2mhKvDUv-LytpBtxpIa'
 	},
 	{ 
-		name_film: '33 Barbie em as Rainhas do Rock',
+		name_film: 'Barbie em as Rainhas do Rock',
 		category: ['Animação' ],
 		link_film: '1_Mo0x_YmV9C7r2mhKvDUv-LytpBtxpIa'
 	},
 	{ 
-		name_film: '34 Barbie e Suas Irmãs em uma Aventura de Cachorrinhos',
+		name_film: 'Barbie e Suas Irmãs em uma Aventura de Cachorrinhos',
 		category: ['Animação' ],
 		link_film: '11dJ21TA7_SxlrtQC3N8w4ZvB9M6CQulr'
 	},
 	{ 
-		name_film: '35 Barbie e as Agentes Secretas',
+		name_film: 'Barbie e as Agentes Secretas',
 		category: ['Animação' ],
 		link_film: '1MetfEErMFEDl7spkqlYMzejTNCh4UECx'
 	},
 	{ 
-		name_film: '36 Barbie Dreamtopia',
+		name_film: 'Barbie Dreamtopia',
 		category: ['Animação' ],
 		link_film: '14A5JswqTfSb6eiGsHFooUTFR8JlXcTaK'
 	},
 	{ 
-		name_film: '37 Barbie em uma Aventura Nas Estrelas',
+		name_film: 'Barbie em uma Aventura Nas Estrelas',
 		category: ['Animação' ],
 		link_film: '16GD25FSSpLTA-lQV_LhwEMjs0zaiTZvg'
 	},
 	{ 
-		name_film: '38 Barbie e Suas Irmãs em Busca Do Cachorrinhos',
+		name_film: 'Barbie e Suas Irmãs em Busca Do Cachorrinhos',
 		category: ['Animação' ],
 		link_film: '1NGb5Xs0b5im1Vt6pqBzbccGnxvrp0e-k'
 	},
 	{ 
-		name_film: '39 Barbie Em Um Mundo de Video Game',
+		name_film: 'Barbie Em Um Mundo de Video Game',
 		category: ['Animação' ],
 		link_film: '1k8Nlr1Cd55YpKIHJ_LsGAJqqrQBo7bLq'
 	},
 	{ 
-		name_film: '40 Barbie e os Golfinhos Mágicos',
+		name_film: 'Barbie e os Golfinhos Mágicos',
 		category: ['Animação' ],
 		link_film: '1_bRtrMMAIWB4x5rbXizq1uRyMzaNR5zO'
 	},
