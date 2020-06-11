@@ -165,11 +165,6 @@ const films = [
 		link_film: '14t20t86o4dqQyVWGASpyUrcPpr1Kmz0B'
 	},
 	{ 
-		name_film: 'It - Capitulo 2',
-		category: ['Terror', 'Drama' ],
-		link_film: '14t20t86o4dqQyVWGASpyUrcPpr1Kmz0B'
-	},
-	{ 
 		name_film: 'Crepúsculo',
 		category: ['Fantasia', 'Romance' ],
 		link_film: '18WEar7-DlHkIImwFnb0Orrj7VrqYe_8w'
@@ -474,9 +469,44 @@ const films = [
 		link_film: '1_bRtrMMAIWB4x5rbXizq1uRyMzaNR5zO'
 	},
 	{ 
-		name_film: '1 Harry Potter e a Pedra Filosofal',
+		name_film: 'Harry Potter e a Pedra Filosofal',
 		category: ['Aventura', 'Fantasia' ],
-		link_film: 'https://drive.google.com/file/d/11RkHRJZDuwgj9vqeWSLYORsKG68i5u0R/view?usp=sharing'
+		link_film: '11RkHRJZDuwgj9vqeWSLYORsKG68i5u0R'
+	},
+	{ 
+		name_film: 'Harry Potter e a Camera Secreta',
+		category: ['Aventura', 'Fantasia' ],
+		link_film: '1NW626MOGs9nxeelPloP-SK4jNYsMb2yl'
+	},
+	{ 
+		name_film: 'Harry Potter e a Prisioneiro de Azkaban',
+		category: ['Aventura', 'Fantasia' ],
+		link_film: '12_VbtZikNSBx3DrXSDT07sHJ5CQVlpfQ'
+	},
+	{ 
+		name_film: 'Harry Potter e o Cálice de Fogo',
+		category: ['Aventura', 'Fantasia' ],
+		link_film: '12ekG3k-LAipXRofWrtItTeKcNaP7e16Y'
+	},
+	{ 
+		name_film: 'Harry Potter e a Ordem da Fenix',
+		category: ['Aventura', 'Fantasia' ],
+		link_film: '12nJVYyY11zBGP3fRruvP4z3Faz2nCcud'
+	},
+	{ 
+		name_film: 'Harry Potter e o Enigma do Príncipe',
+		category: ['Aventura', 'Fantasia' ],
+		link_film: '12oC4TcfLDBJAeZH1pOjGyzqFcLiHzRyi'
+	},
+	{ 
+		name_film: 'Harry Potter e as Relíquias da Morte',
+		category: ['Aventura', 'Fantasia' ],
+		link_film: '13zpohvrT7lH901_c1xPMRSD3PuDQ7dQA'
+	},
+	{ 
+		name_film: 'Harry Potter e a Relíquias da Morte 2',
+		category: ['Aventura', 'Fantasia' ],
+		link_film: '140-9euA_cgLG9BnEeTZ0B2cxrAqgU64o'
 	},
 ];
 
